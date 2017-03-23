@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FakeData, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FakeData.1.0.0\lib\FakeData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MarkdownSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MarkdownSharp.1.13.0.0\lib\35\MarkdownSharp.dll</HintPath>
       <Private>True</Private>
@@ -158,11 +162,13 @@
     <Compile Include="Controllers\MyChartController.cs" />
     <Compile Include="Controllers\MyCriptoController.cs" />
     <Compile Include="Controllers\MyWebCacheController.cs" />
+    <Compile Include="Controllers\MyWebGridController.cs" />
     <Compile Include="Controllers\MyWebImageController.cs" />
     <Compile Include="Controllers\MyWebMailController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Kitap.cs" />
     <Compile Include="Models\Veritabani.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -185,6 +191,7 @@
     <Content Include="Views\MyWebImage\Start.cshtml" />
     <Content Include="Views\MyWebCache\Index.cshtml" />
     <Content Include="Views\MyWebMail\Index.cshtml" />
+    <Content Include="Views\MyWebGrid\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
