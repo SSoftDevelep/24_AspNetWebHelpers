@@ -155,6 +155,7 @@
     <Compile Include="Controllers\AntiForgeryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MyChartController.cs" />
+    <Compile Include="Controllers\MyCriptoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -176,6 +177,7 @@
     <Content Include="Views\AntiForgery\FakeTest.cshtml" />
     <Content Include="Views\MyChart\ChartGoster.cshtml" />
     <Content Include="Views\MyChart\ChartOlustur.cshtml" />
+    <Content Include="Views\MyCripto\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
