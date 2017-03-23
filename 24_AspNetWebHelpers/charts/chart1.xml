@@ -1,13 +1,13 @@
 <Chart Width="500" Height="500">
   <Series>
-    <Series Name="Bilgisayar A" Legend="Legend1" XValueType="Int32" YValueType="Int32" ChartArea="Default">
+    <Series Name="Bilgisayar A" Legend="Legend1" XValueType="Int32" YValueType="Int32" ChartType="Line" ChartArea="Default">
       <Points>
         <DataPoint XValue="20" YValues="800" />
         <DataPoint XValue="40" YValues="1200" />
         <DataPoint XValue="60" YValues="2300" />
       </Points>
     </Series>
-    <Series Name="Bilgisayar B" Legend="Legend1" XValueType="Int32" YValueType="Int32" ChartArea="Default">
+    <Series Name="Bilgisayar B" Legend="Legend1" XValueType="Int32" YValueType="Int32" ChartType="Line" ChartArea="Default">
       <Points>
         <DataPoint XValue="20" YValues="900" />
         <DataPoint XValue="40" YValues="1600" />
