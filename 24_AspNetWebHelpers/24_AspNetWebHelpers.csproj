@@ -154,6 +154,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AntiForgeryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MyChartController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -173,6 +174,8 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Views\AntiForgery\Test.cshtml" />
     <Content Include="Views\AntiForgery\FakeTest.cshtml" />
+    <Content Include="Views\MyChart\ChartGoster.cshtml" />
+    <Content Include="Views\MyChart\ChartOlustur.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
